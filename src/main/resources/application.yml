@@ -1,0 +1,37 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://Shreyas:Shreyas7451@cluster0.kmbdk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database: journaldb
+      auto-index-creation: true
+  active:
+    profile:
+  main:
+    allow-circular-references: true
+  redis:
+    host: redis://default:76cjX2fDP86NyZO41Lcw83GlvXV6W78P@redis-15032.crce182.ap-south-1-1.ec2.redns.redis-cloud.com:15032
+    port:
+    password: Shreyas@123
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: spatil7451@gmail.com
+    password: mjho rkit ibwk uysv
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+server:
+  port: 8080
+  servlet:
+    context-path: /journal
+
+weather:
+  api:
+    key: b3fa9d312d859966fd4e392bed04e766
+
+
+
