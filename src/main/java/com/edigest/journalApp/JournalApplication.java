@@ -31,6 +31,7 @@ public static void main(String[] args){
 @Bean
 public RestTemplate restTemplate(){
 	return new RestTemplate();
+
 }
 
 }
