@@ -13,7 +13,7 @@ spring:
     port:
     password: Shreyas@123
   mail:
-    host: smtp.gmail.com
+    host: notmention@gmail.com
     port: yyy
     username: spatil7451@gmail.com
     password: mjho rkit ibwk uysv
@@ -27,7 +27,7 @@ spring:
 server:
   port: xxyy
   servlet:
-    context-path: /journal
+    context-path: /path
 
 weather:
   api:
