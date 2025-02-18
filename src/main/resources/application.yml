@@ -9,14 +9,14 @@ spring:
   main:
     allow-circular-references: true
   redis:
-    host: redis://default:76cjX2fDP86NyZO41Lcw83GlvXV6W78P@redis-15032.crce182.ap-south-1-1.ec2.redns.redis-cloud.com:15032
+    host: x
     port:
-    password: Shreyas@123
+    password: x
   mail:
     host: notmention@gmail.com
     port: yyy
     username: notmention@gmail.com
-    password: mjho rkit ibwk uysv
+    password: xxxx yyyy xxxx yyyy
     properties:
       mail:
         smtp:
