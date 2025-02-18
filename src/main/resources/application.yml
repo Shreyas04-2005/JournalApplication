@@ -15,7 +15,7 @@ spring:
   mail:
     host: notmention@gmail.com
     port: yyy
-    username: spatil7451@gmail.com
+    username: notmention@gmail.com
     password: mjho rkit ibwk uysv
     properties:
       mail:
