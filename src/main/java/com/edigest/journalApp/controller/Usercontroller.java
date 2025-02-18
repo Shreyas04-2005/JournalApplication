@@ -54,6 +54,7 @@ public class Usercontroller {
             greting=", Weather feels like "+ weatherResponce.getCurrent().getFeelsLike();
         }
         return new ResponseEntity<>("Hi "+authentication.getName() + greting, HttpStatus.OK);
+        
     }
 
     //error 500 =server side error(code error)
