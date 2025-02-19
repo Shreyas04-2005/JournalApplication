@@ -31,7 +31,7 @@ server:
 
 weather:
   api:
-    key: x
+    key: ${weather_api}
 
 
 
