@@ -13,13 +13,12 @@ target/
 .springBeans
 .sts4-cache
 
-
 ### IntelliJ IDEA ###
 .idea
 *.iws
 *.iml
 *.ipr
-*.journalApp.log
+*.log
 
 ### NetBeans ###
 /nbproject/private/
