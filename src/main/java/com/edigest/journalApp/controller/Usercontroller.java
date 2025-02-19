@@ -57,7 +57,4 @@ public class Usercontroller {
 
     }
 
-    //error 500 =server side error(code error)
-    //error 400 =client side error(request error)
-    //controller -> service -> repository
 }
