@@ -1,17 +1,17 @@
 spring:
   data:
     mongodb:
-      uri: x
-      database: y
+      uri: ${mongodb_uri}
+      database: ${database_name}
       auto-index-creation: true
   active:
     profile:
   main:
     allow-circular-references: true
   redis:
-    host: x
+    host: ${host_name}
     port:
-    password: x
+    password: ${host_password}
   mail:
     host: notmention@gmail.com
     port: yyy
@@ -27,11 +27,11 @@ spring:
 server:
   port: xxyy
   servlet:
-    context-path: /path
+    context-path: ${/path}
 
 weather:
   api:
-    key: ${weather_api}
+    key: ${weather_api_key}
 
 
 
