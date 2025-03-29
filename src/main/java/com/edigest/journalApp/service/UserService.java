@@ -33,12 +33,7 @@ public class UserService {
             userRepository.save(user);
             return true;
         } catch (Exception e) {
-            log.error("sssssssssssssssssss");
-            log.warn("ddddddddddddddd");
-            log.info("ffffffffffffffffffff");
-            log.debug("gggggggggggggggggg");
-            log.trace("hhhhhhhhhhhhhhhhhhhhh");
-
+            log.error("Exception occurred while creating user"+e);
            return false;
         }
     }

@@ -15,6 +15,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
+
 @RequestMapping("/public")
 @Slf4j
 public class PublicController {
