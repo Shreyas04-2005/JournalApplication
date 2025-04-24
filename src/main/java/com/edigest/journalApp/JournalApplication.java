@@ -32,7 +32,6 @@ public static void main(String[] args){
 public RestTemplate restTemplate(){
 	return new RestTemplate();
 }
-
 }
 //platformTransactionManager
 //mongoTransactionManager
